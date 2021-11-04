@@ -8,56 +8,51 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 
-*{
-  box-sizing: border-box;
-}
+
 html {
 
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 1em;
-line-height: 1.3em;
-padding: .6em;
+font-size:medium;
+line-height: normal;
+padding: .5em;
 background-color: #B7E3F2;
 
 
+
 }
+
+
 
 nav {
 
   background-color: #C5D1D5;
-  padding: 1em;
-  text-align: left;
+  padding: 0em;
+  text-align: center;
 
 
 }
 
 nav li {
 
-display: inline;
-padding: 1.3em;
-
-border-color: black;
-border-width: 0.2em;
+display: inline-grid;
+text-align: center;
+padding: 1em;
+text-indent: 0em;
 font-size: 1.5em;
-
-
-
 
 
 
 }
 
 nav li:hover {
-
   background-color: #7D878B;
-;
-
 }
 
 
 article{
 
-background-color: white;
+background-color: #50585B;
+text-align: center;
 
 }
 
@@ -69,29 +64,10 @@ section{
 
 
 
-figure {
-  position: relative;
-
-}
-
-figcaption{
-  position: absolute;
-  bottom: 0em;
-  color: #EEE;
-  background: rgba(20, 20, 20, 0.8);
-  width: 100%;
-  padding: .3em;
-}
-
-h1,
-h2,
-h3,
 p{
 
-  padding-bottom: .7em;
+  padding-left: 1em;
 }
-
-
 
 h1 {
 
@@ -113,14 +89,23 @@ h3 {
 
 font-size: 1.3em;
 font-weight: bold;
+padding: 0.5em;
 
 }
 
-
-
-
 ul {
 
-  text-indent: 1em;
+  text-indent: 2em;
+
+
+
+
+}
+
+li{
+
+list-style: circle;
+list-style-position: inside;
+
 
 }

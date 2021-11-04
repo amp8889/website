@@ -11,28 +11,52 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 *{
   box-sizing: border-box;
 }
-html{
+html {
 
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size: 23px;
-line-height: 28px;
-padding: 14px;
+font-size: 1em;
+line-height: 1.3em;
+padding: .6em;
 
 
 }
 
-figure{
+nav {
+
+  background-color: #ECEFF0;
+  padding: 1em;
+  text-align: left;
+  border-radius: .5em;
+  text-decoration: none;
+
+
+
+}
+
+nav li {
+
+display: inline;
+background-color: green;
+padding: .7em;
+border-radius: .4em;
+text-decoration: none;
+
+}
+
+
+
+figure {
   position: relative;
 
 }
 
 figcaption{
   position: absolute;
-  bottom: 0px;
+  bottom: 0em;
   color: #EEE;
   background: rgba(20, 20, 20, 0.8);
   width: 100%;
-  padding: 6px;
+  padding: .3em;
 }
 
 h1,
@@ -40,28 +64,28 @@ h2,
 h3,
 p{
 
-  padding-bottom: 14px;
+  padding-bottom: .7em;
 }
 
 
 
-h1{
+h1 {
 
-  font-size: 48px;
+  font-size: 2em;
   font-weight: bold;
 
 }
 
-h2{
+h2 {
 
-font-size: 36px;
+font-size: 1.5em;
 font-weight: bold;
 background-color: orange;
 }
 
-h3{
+h3 {
 
-font-size: 30px;
+font-size: 1.3em;
 font-weight: bold;
 
 }
@@ -69,16 +93,16 @@ font-weight: bold;
 
 
 
-ul{
+ul {
 
-  list-style-type: armenian;
-  list-style: circle;
+  text-indent: 0.7em;
+
+
+
 }
 
-li{
+li {
 
-  list-style-type: armenian;
-  list-style: circle;
 
 
 }

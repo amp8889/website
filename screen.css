@@ -17,18 +17,16 @@ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 1em;
 line-height: 1.3em;
 padding: .6em;
+background-color: #B7E3F2;
 
 
 }
 
 nav {
 
-  background-color: #ECEFF0;
+  background-color: #C5D1D5;
   padding: 1em;
   text-align: left;
-  border-radius: .5em;
-  text-decoration: none;
-
 
 
 }
@@ -36,10 +34,36 @@ nav {
 nav li {
 
 display: inline;
-background-color: green;
-padding: .7em;
-border-radius: .4em;
-text-decoration: none;
+padding: 1.3em;
+
+border-color: black;
+border-width: 0.2em;
+font-size: 1.5em;
+
+
+
+
+
+
+}
+
+nav li:hover {
+
+  background-color: #7D878B;
+;
+
+}
+
+
+article{
+
+background-color: white;
+
+}
+
+section{
+
+  background-color: grey;
 
 }
 
@@ -73,6 +97,7 @@ h1 {
 
   font-size: 2em;
   font-weight: bold;
+  text-align: center;
 
 }
 
@@ -81,6 +106,7 @@ h2 {
 font-size: 1.5em;
 font-weight: bold;
 background-color: orange;
+padding: 0.5em;
 }
 
 h3 {
@@ -95,14 +121,6 @@ font-weight: bold;
 
 ul {
 
-  text-indent: 0.7em;
-
-
-
-}
-
-li {
-
-
+  text-indent: 1em;
 
 }

@@ -42,3 +42,43 @@ p{
 
   padding-bottom: 14px;
 }
+
+
+
+h1{
+
+  font-size: 48px;
+  font-weight: bold;
+
+}
+
+h2{
+
+font-size: 36px;
+font-weight: bold;
+background-color: orange;
+}
+
+h3{
+
+font-size: 30px;
+font-weight: bold;
+
+}
+
+
+
+
+ul{
+
+  list-style-type: armenian;
+  list-style: circle;
+}
+
+li{
+
+  list-style-type: armenian;
+  list-style: circle;
+
+
+}

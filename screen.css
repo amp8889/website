@@ -9,14 +9,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size:medium;
+  font-size: medium;
   line-height: normal;
   background-color: #C5D1D5;
 }
+
+li {
+
+  list-style: circle;
+  list-style-position: inside;
+
+
+}
+
 nav {
 
   background-color: #C5D1D5;
-  padding: 0em;
+  padding: 0;
   text-align: center;
 
 
@@ -24,11 +33,11 @@ nav {
 
 nav li {
 
-display: inline-grid;
-text-align: center;
-padding: 1em;
-text-indent: 0em;
-font-size: 1.5em;
+  display: inline-grid;
+  text-align: center;
+  padding: 1em;
+  text-indent: 0;
+  font-size: 1.5em;
 
 
 
@@ -39,14 +48,14 @@ nav li:hover {
 }
 
 
-article{
+article {
 
-background-color: #50585B;
-text-align: center;
+  background-color: #50585B;
+  text-align: center;
 
 }
 
-section{
+section {
 
   background-color: grey;
 
@@ -54,7 +63,7 @@ section{
 
 
 
-p{
+p {
 
   padding-left: 1em;
 }
@@ -69,17 +78,17 @@ h1 {
 
 h2 {
 
-font-size: 1.5em;
-font-weight: bold;
-background-color: #C17830;
-padding: 0.5em;
+  font-size: 1.5em;
+  font-weight: bold;
+  background-color: #C17830;
+  padding: 0.5em;
 }
 
 h3 {
 
-font-size: 1.3em;
-font-weight: bold;
-padding: 0.5em;
+  font-size: 1.3em;
+  font-weight: bold;
+  padding: 0.5em;
 
 }
 
@@ -88,14 +97,6 @@ ul {
   text-indent: 2em;
 
 
-
-
-}
-
-li{
-
-list-style: circle;
-list-style-position: inside;
 
 
 }

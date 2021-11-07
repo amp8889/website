@@ -7,22 +7,12 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
-
-
 html {
-
-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-font-size:medium;
-line-height: normal;
-padding: .5em;
-background-color: #B7E3F2;
-
-
-
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size:medium;
+  line-height: normal;
+  background-color: #C5D1D5;
 }
-
-
-
 nav {
 
   background-color: #C5D1D5;
@@ -81,7 +71,7 @@ h2 {
 
 font-size: 1.5em;
 font-weight: bold;
-background-color: orange;
+background-color: #C17830;
 padding: 0.5em;
 }
 

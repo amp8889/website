@@ -101,7 +101,7 @@ section {
   background-color: #F8F8FF;
 
 
-  width: 50%;
+  width: 100%;
   min-width: 40vw;
   background-color: blue;
   border-radius: 25px;
@@ -125,4 +125,16 @@ section {
 
   background-color: green;
   border-radius: 25px;
+}
+
+
+@media all and (min-width: 600px) {
+
+
+  section{
+
+    width: 50%;
+  }
+
+
 }

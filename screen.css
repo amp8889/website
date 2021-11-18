@@ -62,7 +62,8 @@ nav li:hover {
 p {
 
   padding-left: 1em;
-  padding-top: 10px;
+  /* 10/16=0.625*/
+  padding-top: 0.625em;
 
 }
 
@@ -81,7 +82,8 @@ h2 {
   font-weight: bold;
   background-color: #696969;
   padding: 0.5em;
-  border-radius: 25px 25px 0px 0px;
+  /*25/16=1.5625 */
+  border-radius: 1.5625em 1.5625em 0 0;
   color: white;
 }
 
@@ -96,7 +98,8 @@ h3 {
 ul {
 
   text-indent: 2em;
-  padding-top: 10px;
+  /* 10/16=0.625*/
+  padding-top: 0.625em;
 
 }
 
@@ -107,19 +110,21 @@ section {
 
   width: 100%;
   min-width: 40vw;
-  border-radius: 25px;
+  /*25/16=1.5625 */
+  border-radius: 1.5625em;
 
 
 
 }
 
-#content{
+#content {
 
   display: flex;
   flex-flow: row wrap;
-  grid-gap: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* 10/16=0.625*/
+  grid-gap: 0.625em;
+  padding-top: 0.625em;
+  padding-bottom: 0.625em;
 
   justify-content: space-around;
 
@@ -132,16 +137,17 @@ section {
 @media all and (min-width: 800px) {
 
 
-  section{
+  section {
 
     width: 48%;
   }
+}
 
 
 @media all and (min-width: 600px) {
 
 
-  section{
+  section {
 
     width: 48%;
   }

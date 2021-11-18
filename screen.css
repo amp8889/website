@@ -129,7 +129,13 @@ section {
 
 }
 
+@media all and (min-width: 800px) {
 
+
+  section{
+
+    width: 48%;
+  }
 
 
 @media all and (min-width: 600px) {

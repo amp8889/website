@@ -25,9 +25,10 @@ li {
 
 nav {
 
-  background-color: #FF4500;
+  background-color: #ff621f;
   padding: 0;
   text-align: center;
+
 
 
 
@@ -48,7 +49,7 @@ nav li {
 }
 
 nav li:hover {
-  background-color: #7D878B;
+  background-color: #963c15;
 }
 
 
@@ -61,6 +62,7 @@ nav li:hover {
 p {
 
   padding-left: 1em;
+  padding-top: 10px;
 
 }
 
@@ -77,9 +79,10 @@ h2 {
 
   font-size: 1.5em;
   font-weight: bold;
-  background-color: #C17830;
+  background-color: #696969;
   padding: 0.5em;
   border-radius: 25px 25px 0px 0px;
+  color: white;
 }
 
 h3 {
@@ -93,6 +96,7 @@ h3 {
 ul {
 
   text-indent: 2em;
+  padding-top: 10px;
 
 }
 
@@ -103,8 +107,9 @@ section {
 
   width: 100%;
   min-width: 40vw;
-  background-color: blue;
   border-radius: 25px;
+
+
 
 }
 
@@ -112,7 +117,10 @@ section {
 
   display: flex;
   flex-flow: row wrap;
-  padding-top: 25px;
+  grid-gap: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
   justify-content: space-around;
 
 
@@ -121,11 +129,7 @@ section {
 
 }
 
-#resume{
 
-  background-color: green;
-  border-radius: 25px;
-}
 
 
 @media all and (min-width: 600px) {
@@ -133,7 +137,7 @@ section {
 
   section{
 
-    width: 50%;
+    width: 48%;
   }
 
 

@@ -54,7 +54,27 @@ nav li:hover {
 
 
 
+img{
 
+  border-radius: 1.5625em;
+  max-width: 100%;
+  display: block;
+}
+
+figure {
+
+  position: relative;
+}
+
+figcaption {
+
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  color: #EEE;
+
+
+}
 
 
 
@@ -112,6 +132,7 @@ section {
   min-width: 40vw;
   /*25/16=1.5625 */
   border-radius: 1.5625em;
+
 
 
 

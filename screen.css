@@ -8,6 +8,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 html {
+
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: medium;
   line-height: normal;
@@ -19,8 +20,6 @@ li {
 
   list-style: circle;
   list-style-position: inside;
-
-
 }
 
 nav {
@@ -28,11 +27,6 @@ nav {
   background-color: #ff621f;
   padding: 0;
   text-align: center;
-
-
-
-
-
 }
 
 nav li {
@@ -42,17 +36,12 @@ nav li {
   padding: 1em;
   text-indent: 0;
   font-size: 1.5em;
-
-
-
-
 }
 
 nav li:hover {
+
   background-color: #963c15;
 }
-
-
 
 img{
 
@@ -71,20 +60,13 @@ figcaption {
   position: absolute;
   width: 100%;
   bottom: 0;
-  color: #EEE;
-
-
 }
-
-
-
 
 p {
 
   padding-left: 1em;
   /* 10/16=0.625*/
   padding-top: 0.625em;
-
 }
 
 h1 {
@@ -92,8 +74,6 @@ h1 {
   font-size: 2em;
   font-weight: bold;
   text-align: center;
-
-
 }
 
 h2 {
@@ -112,7 +92,6 @@ h3 {
   font-size: 1.3em;
   font-weight: bold;
   padding: 0.5em;
-
 }
 
 ul {
@@ -120,22 +99,15 @@ ul {
   text-indent: 2em;
   /* 10/16=0.625*/
   padding-top: 0.625em;
-
 }
 
 section {
 
   background-color: #F8F8FF;
-
-
   width: 100%;
   min-width: 40vw;
   /*25/16=1.5625 */
   border-radius: 1.5625em;
-
-
-
-
 }
 
 #content {
@@ -146,32 +118,21 @@ section {
   grid-gap: 0.625em;
   padding-top: 0.625em;
   padding-bottom: 0.625em;
-
   justify-content: space-around;
-
-
-
-
-
 }
 
 @media all and (min-width: 800px) {
 
-
   section {
 
     width: 48%;
   }
 }
 
-
 @media all and (min-width: 600px) {
-
 
   section {
 
     width: 48%;
   }
-
-
 }

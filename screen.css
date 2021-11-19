@@ -43,9 +43,9 @@ nav li:hover {
   background-color: #963c15;
 }
 
-img{
+img {
 
-  border-radius: 1.5625em;
+  border-radius: 0 0 1.5625em 1.5625em  ;
   max-width: 100%;
   display: block;
 }

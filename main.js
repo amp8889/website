@@ -1,11 +1,8 @@
 document.querySelector('html').className = 'js';
 
 
-var p = document.querySelector('p');
 var bt = document.getElementById('bt');
-var input = document.getElementById("textholder").value;
-//var ph = document.getElementById('ph');
-var comebackText = "I get what you are saying, but, what if you are wrong? Thinks to think about."
+var comebackText = "I get what you are saying, but, what if you are wrong? Thinks to think about.";
 
 bt.addEventListener('click', function(){
 
@@ -16,7 +13,7 @@ bt.addEventListener('click', function(){
   document.getElementById('hopi').innerText = "Unwanted Opinions and Questions";
 
 
-  console.log('Testing')
+  console.log('Testing');
   console.log(input);
 
 

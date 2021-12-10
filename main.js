@@ -12,9 +12,11 @@ bt.addEventListener('click', function(){
   var input = document.getElementById("textholder").value;
   //ph = comebackText;
   document.getElementById('ph').innerText = comebackText;
+  document.getElementById('opi').innerText = input;
+  document.getElementById('hopi').innerText = "Unwanted Opinions and Questions";
 
 
-  console.log('PLEASE WORK')
+  console.log('Testing')
   console.log(input);
 
 

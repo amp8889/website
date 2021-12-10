@@ -1,17 +1,37 @@
-const info = document.getElementById("textholder");
+document.querySelector('html').className = 'js';
 
-const file = "suggestions.txt";
 
-let newlink = document.createElement("a");
-newlink.download = file;
+var p = document.querySelector('p');
 
-if (window.webkitURL != null){
-  newlink.href = window.URL.createObjectURL(info);
-}
-else{
-  newlink.href = window.URL.createObjectURL(info)
-  newlink.style.display = "none";
-  document.body.appendChild(newlink);
-}
+p.addEventListener('click', function(){
 
-newLink.click();
+  console.log('PLEASE WORK')
+});
+
+
+
+
+
+
+//function getInputFromTextBox() {
+//    var input = document.getElementById("textholder").value;
+//    alert(input);
+//}
+
+
+
+//const file = "suggestions.txt";
+
+//let newlink = document.createElement("a");
+//newlink.download = file;
+
+//if (window.webkitURL != null){
+  //newlink.href = window.URL.createObjectURL(info);
+//}
+//else{
+  //newlink.href = window.URL.createObjectURL(info)
+  //newlink.style.display = "none";
+  //document.body.appendChild(newlink);
+//}
+
+//newLink.click();

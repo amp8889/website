@@ -25,24 +25,38 @@ li {
 
 nav {
 
-  background-color: #ff621f;
+  background-color: #black;
   padding: 0;
   text-align: center;
 }
 
-nav li {
+nav li{
 
   display: inline-grid;
   text-align: center;
   padding: 1em;
   text-indent: 0;
   font-size: 1.5em;
+
+  text-decoration: none;
+  color: white;
 }
 
 nav li:hover {
 
   background-color: #963c15;
 }
+
+
+
+a:visited{
+
+  text-decoration: none;
+  color: white;
+}
+
+
+
 
 img {
 

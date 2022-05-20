@@ -12,7 +12,8 @@ html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: medium;
   line-height: normal;
-  background-color: #F5FFFA;
+  background-color: black;
+  color: white;
 
 }
 
@@ -46,20 +47,10 @@ nav li:hover {
 img {
 
   max-width: 100%;
-  display: block;
+  min-width: 100%;
 }
 
-figure {
 
-  position: relative;
-}
-
-figcaption {
-
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-}
 
 p {
 
@@ -68,45 +59,38 @@ p {
   padding-top: 0.625em;
 }
 
-h1 {
 
-  font-size: 2em;
-  font-weight: bold;
-  text-align: center;
-}
 
 h2 {
 
   font-size: 1.5em;
   font-weight: bold;
-  background-color: #696969;
   padding: 0.5em;
   /*25/16=1.5625 */
-  color: white;
-}
 
-h3 {
+  position: absolute;
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%);
 
-  font-size: 1.3em;
-  font-weight: bold;
-  padding: 0.5em;
-}
-
-ul {
-
-  text-indent: 2em;
-  /* 10/16=0.625*/
 
 }
+
+
+
+
 
 section {
 
-  display: flex;
+
 
 }
 
-main {
+.about-me {
 
+  position: relative;
+  text-align: center;
+  color: white;
 
 
 }

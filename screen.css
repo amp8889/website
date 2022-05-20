@@ -13,7 +13,7 @@ html {
   font-size: medium;
   line-height: normal;
   background-color: #F5FFFA;
-  padding: 2em;
+
 }
 
 li {
@@ -45,7 +45,6 @@ nav li:hover {
 
 img {
 
-  border-radius: 0 0 1.5625em 1.5625em  ;
   max-width: 100%;
   display: block;
 }
@@ -83,7 +82,6 @@ h2 {
   background-color: #696969;
   padding: 0.5em;
   /*25/16=1.5625 */
-  border-radius: 1.5625em 1.5625em 0 0;
   color: white;
 }
 
@@ -98,43 +96,27 @@ ul {
 
   text-indent: 2em;
   /* 10/16=0.625*/
-  padding-top: 0.625em;
+
 }
 
 section {
 
-  background-color: #F8F8FF;
-  width: 100%;
-  min-width: 40vw;
-  /*25/16=1.5625 */
-  border-radius: 1.5625em;
+
 }
 
 #content {
 
-  display: flex;
-  flex-flow: row wrap;
-  /* 10/16=0.625*/
-  grid-gap: 0.625em;
-  padding-top: 0.625em;
-  padding-bottom: 0.625em;
-  justify-content: space-around;
-}
-
-
-input {
-
-  height: 3em;
-  width: 98%;
-  justify-content: space-around;
 
 }
+
+
+
 
 @media all and (min-width: 800px) {
 
   section {
 
-    width: 48%;
+
   }
 }
 
@@ -142,6 +124,6 @@ input {
 
   section {
 
-    width: 48%;
+
   }
 }

@@ -128,6 +128,7 @@ section {
 .about-me-title {
 
   text-align: center;
+  font-size: 3em;
 
   grid-column: 1/3;
   grid-row: 1;
@@ -164,10 +165,34 @@ section {
 
 @media all and (min-width: 800px) {
 
-  section {
+
+
+  .about-me-title {
+
+
+    grid-column: 1/1;
+    grid-row: 1;
 
 
   }
+
+
+
+  .aidan-image{
+
+    grid-column: 1;
+    grid-row: 1/2;
+
+
+  }
+
+  .about-me-text {
+
+
+
+  }
+
+
 }
 
 @media all and (min-width: 600px) {

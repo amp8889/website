@@ -71,6 +71,7 @@ p {
   padding-left: 1em;
   /* 10/16=0.625*/
   padding-top: 0.625em;
+  font-size: 1.75em;
 }
 
 
@@ -138,7 +139,7 @@ section {
 
 
 
-.aidan-image{
+.aidan-image {
 
   grid-column: 1;
   grid-row: 2/5;
@@ -148,8 +149,20 @@ section {
 
 .about-me-text {
 
+  grid-column: 2;
+  grid-row: 2/4;
+
+}
 
 
+.about-resume {
+
+
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  grid-column: 2;
+  grid-row: 4;
 }
 
 
@@ -199,5 +212,5 @@ section {
 
 @media all and (min-width: 600px) {
 
-  
+
 }

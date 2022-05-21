@@ -140,7 +140,9 @@ h2 {
 .image-one {
 
   grid-column: 1;
-  grid-row: 2/5;
+  grid-row: 2/3;
+  max-width: 20em;
+  max-height: auto;
 
 
 }
@@ -148,7 +150,7 @@ h2 {
 .intro-one {
 
   grid-column: 2;
-  grid-row: 2/4;
+  grid-row: 2;
 
 }
 
@@ -194,6 +196,8 @@ grid-auto-rows: minmax(100px, auto);
   grid-column: 2;
   grid-row: 2/5;
 
+  max-width: 20em;
+  max-height: auto;
 
 
 }
@@ -223,7 +227,7 @@ grid-auto-rows: minmax(100px, auto);
 
 
 
-  .about-me-title {
+  .title-one, .title-two {
 
 
     grid-column: 1/1;
@@ -234,7 +238,7 @@ grid-auto-rows: minmax(100px, auto);
 
 
 
-  .aidan-image{
+  .image-one, .image-two{
 
     grid-column: 1;
     grid-row: 2;
@@ -242,10 +246,19 @@ grid-auto-rows: minmax(100px, auto);
 
   }
 
-  .about-me-text {
+  .intro-one, .intro-two {
 
     grid-column: 1;
-    grid-row: 3
+    grid-row: 3;
+
+
+  }
+
+
+  .link-one, .link-two {
+
+    grid-column: 1;
+    grid-row: 4;
 
 
   }

@@ -51,7 +51,7 @@ nav li:hover {
 
 a{
 
-color: white;
+color: orange;
 
 
 }
@@ -59,7 +59,7 @@ color: white;
 a:visited{
 
   text-decoration: none;
-  color: white;
+  color: orange;
 }
 
 

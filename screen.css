@@ -23,6 +23,7 @@ li {
 
   list-style: circle;
   list-style-position: inside;
+  font-size: 1.75em;
 }
 
 nav {
@@ -61,46 +62,28 @@ a:visited{
   text-decoration: none;
   color: orange;
 }
-
-
-
-
 img {
 
   max-width: 100%;
   min-width: 100%;
 }
 
-
-
 p {
 
   padding-left: 1em;
-  /* 10/16=0.625*/
   padding-top: 0.625em;
   font-size: 1.75em;
 }
-
-
-
-main {
-
-
-
-}
-
-
 
 .intro {
 
   position: relative;
   text-align: center;
   color: white;
-
-
 }
 
 .intro-text {
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -120,9 +103,7 @@ main {
   justify-content: center;
   padding: 10em;
 
-
 }
-
 
 .homepage-tab-two{
 
@@ -135,7 +116,6 @@ justify-content: center;
 padding: 10em;
 
 }
-
 
 .title-one{
 
@@ -228,6 +208,77 @@ padding: 10em;
   color: black;
 
 }
+
+
+
+
+
+
+
+
+
+
+#resume-content{
+
+  display: grid;
+  grid-template-columns: repeat (2, 1fr);
+  gap: 10px;
+  grid-auto-rows: minmax(100px, auto);
+  justify-content: center;
+  padding: 2em;
+
+
+}
+
+
+
+
+
+.side-info{
+
+  grid-column: 1;
+  grid-row: 1/10;
+  font-size: .5em;
+
+
+
+
+}
+
+
+
+.main-info{
+
+  grid-column: 2;
+  background-color: white;
+  color: black;
+  font-size: .75em;
+
+
+
+
+
+}
+
+.resume-main-title{
+
+
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.resume-side-title{
+
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+
+
+
+
+
 
 
 

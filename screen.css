@@ -19,11 +19,18 @@ html {
 
 }
 
+ul{
+
+  list-style-type:circle;
+
+
+
+}
+
 li {
 
-  list-style: circle;
-  list-style-position: inside;
-  font-size: 1.75em;
+  list-style-type:circle;
+
 }
 
 nav {
@@ -251,7 +258,7 @@ padding: 10em;
 
   grid-column: 2;
   background-color: white;
-  color: black;
+  color: gray;
   font-size: .75em;
 
 
@@ -265,6 +272,7 @@ padding: 10em;
 
   font-size: 3em;
   font-weight: bold;
+  color: black;
 }
 
 .resume-side-title{
@@ -272,6 +280,16 @@ padding: 10em;
   font-size: 2em;
   font-weight: bold;
 
+}
+
+
+.email {
+
+  font-size: 2em;
+  background: url('assets/orange-email.png');
+  /*list-style-image: url('assets/orange-email.png');
+
+*/
 }
 
 

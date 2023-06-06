@@ -232,7 +232,7 @@ padding: 10em;
   gap: 10px;
   grid-auto-rows: minmax(100px, auto);
   justify-content: center;
-  padding: 2em;
+  padding: 1em;
 
 
 }
@@ -245,7 +245,7 @@ padding: 10em;
 
   grid-column: 1;
   grid-row: 1/10;
-  font-size: .5em;
+  font-size: 0.75em;
 
 
 
@@ -283,14 +283,9 @@ padding: 10em;
 }
 
 
-.email {
 
-  font-size: 2em;
-  background: url('assets/orange-email.png');
-  /*list-style-image: url('assets/orange-email.png');
 
-*/
-}
+
 
 
 

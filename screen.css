@@ -19,6 +19,15 @@ html {
 
 }
 
+
+h4{
+    
+    color: gray;
+    font-size: 1.25em;
+    
+    
+}
+
 ul{
 
   list-style-type:circle;
@@ -30,31 +39,46 @@ ul{
 li {
 
   list-style-type:circle;
+    margin: .5em;
 
 }
 
 nav {
 
-  background-color: #black;
   padding: 0;
-  text-align: center;
+  text-align: left;
+    overflow: hidden
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav li{
+    
+    display: inline-block;
+    text-decoration: none;
+    margin: 0
+    
+}
 
-  display: inline-grid;
+nav li a{
+
+  display: block;
   text-align: center;
   padding: 1em;
   text-indent: 0;
   font-size: 1.5em;
 
   text-decoration: none;
-  color: white;
+  color: orange;
 }
 
-nav li:hover {
+nav li:hover a {
 
-  background-color: #963c15;
+  background-color: black;
 }
 
 a{
@@ -77,7 +101,7 @@ img {
 
 p {
 
-  padding-left: 1em;
+  
   padding-top: 0.625em;
   font-size: 1.75em;
 }
@@ -97,6 +121,8 @@ p {
   transform: translate(-50%, -50%);
   font-size: 3em;
   font-weight: bold;
+  text-shadow: 3px 3px black;
+
 
 }
 
@@ -229,7 +255,7 @@ padding: 10em;
 
   display: grid;
   grid-template-columns: repeat (2, 1fr);
-  gap: 10px;
+  
   grid-auto-rows: minmax(100px, auto);
   justify-content: center;
   padding: 1em;
@@ -243,11 +269,23 @@ padding: 10em;
 
 .side-info{
 
-  grid-column: 1;
-  grid-row: 1/10;
-  font-size: 0.75em;
+    grid-column: 1;
+    grid-row: 1/10;
+    font-size: 0.75em;
+    padding: 1em;
 
 
+
+
+}
+
+
+.image-side{
+
+  
+
+  max-width: 15em;
+  max-height: auto;
 
 
 }
@@ -258,8 +296,9 @@ padding: 10em;
 
   grid-column: 2;
   background-color: white;
-  color: gray;
+  color: #474747;
   font-size: .75em;
+    padding: 2em;
 
 
 
@@ -270,7 +309,7 @@ padding: 10em;
 .resume-main-title{
 
 
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: bold;
   color: black;
 }
@@ -281,6 +320,8 @@ padding: 10em;
   font-weight: bold;
 
 }
+
+
 
 
 

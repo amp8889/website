@@ -298,13 +298,18 @@ padding: 10em;
   background-color: white;
   color: #474747;
   font-size: .75em;
-    padding: 2em;
+  padding: 2em;
+  border-radius: 1.5em;
+  margin: .5em;
+
 
 
 
 
 
 }
+
+
 
 .resume-main-title{
 
@@ -320,6 +325,27 @@ padding: 10em;
   font-weight: bold;
 
 }
+
+
+#skills ul{
+
+    display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      grid-gap: 1em;
+      /* Adjust as needed for spacing between bullet points */
+      padding: 0;
+
+}
+
+#skills li{
+
+  list-style-type: none;
+
+
+
+}
+
+
 
 
 

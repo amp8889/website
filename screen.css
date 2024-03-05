@@ -340,12 +340,40 @@ padding: 10em;
 #skills li{
 
   list-style-type: none;
+}
 
 
+
+#projectsContent p{
+
+  font-size: 1em;
+  
+}
+
+#projectsContent h3 {
+
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+
+.applications{
+
+  background-color: #474747;
+  margin: 1em;
+  border-radius: .5em;
+  padding: .5em;
+  
 
 }
 
 
+.imageSection {
+
+  display: grid;
+
+
+}
 
 
 

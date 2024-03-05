@@ -474,7 +474,13 @@ p {
   list-style-type: none;
 }
 
+#projectsContent {
 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(40em, 1fr));
+
+
+}
 
 #projectsContent p {
 
@@ -503,7 +509,7 @@ p {
 .imageSection {
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
   grid-gap: 1em;
   /* Adjust as needed for spacing between bullet points */
   padding: 0;

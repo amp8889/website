@@ -241,6 +241,16 @@ p {
   font-size: 1.75em;
 }
 
+
+
+footer {
+
+text-align: center;
+padding-left: 1em;
+font-size: .75em;
+
+}
+
 .intro {
 
   position: relative;
@@ -505,7 +515,8 @@ margin-left: 2.5em;
 
 .applications {
 
-  background-color: #474747;
+  background-color: white;
+  color: black;
   margin: 1em;
   border-radius: .5em;
   padding: .5em;

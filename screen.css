@@ -179,8 +179,10 @@ li {
 nav {
 
   padding: 0;
-  text-align: left;
-  overflow: hidden
+  text-align: center;
+  overflow: hidden;
+  border-bottom: 1px solid orange;
+  
 }
 
 nav ul {
@@ -441,6 +443,12 @@ p {
 
 }
 
+.main-info li {
+
+margin-left: 2.5em;
+
+}
+
 
 
 .resume-main-title {
@@ -501,6 +509,8 @@ p {
   margin: 1em;
   border-radius: .5em;
   padding: .5em;
+  height: fit-content;
+  
 
 
 }

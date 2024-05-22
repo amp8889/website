@@ -32,6 +32,8 @@
         Allows them to also view reviews left by other students.
       </p>
       <p>Data is saved in an AWS Database</p>
+      <a href="https://github.com/amp8889/studentReviewDatabase">Source Code</a>
+
 
       <section class="imageSection">
         <img src="../assets/studentReviewLogin.png" alt="IMAGE TO BE ADDED">
@@ -53,13 +55,18 @@
 
       <p>A cybersecurity Application built to scan your PC for weaknesses </p>
       <p>Saves data in a secure Database hosted on AWS</p>
+      <p>Video Demoonstraction: <a href="https://github.com/amp8889/studentReviewDatabase">Click Here</a>
+      </p>
 
-      <section>
-        <video width="500" height="400" controls>
-          <source src="../assets/cybergooseVideo.mp4" type="video/mp4">
-          <source src="movie.ogg" type="video/ogg">
-          Your browser does not support the video tag.
-        </video>
+
+      <section class="imageSection">
+        <img src="../assets/cybergooseHomePage.png" alt="Cybergoose Homepage">
+        <img src="../assets/passwordRequirements.png" alt="Cybergoose Password Requirements">
+        <img src="../assets/EventLogs.png" alt="Cybergoose Event Logs">
+        <img src="../assets/cybergooseServerTable.png" alt="Cybergoose Server Table">
+        <img src="../assets/cybergooseDashboard.png" alt="Cybergoose Dashboard">
+        <img src="../assets/cybergooseAnalytics.png" alt="Cybergoose Analytics">
+
       </section>
 
 
@@ -67,7 +74,47 @@
 
 
     <section id="appThree" class="applications fade-in">
-      <h3>Python Programs</h3>
+      <h3>Custom Search Engine</h3>
+
+
+      <h2>Broken Down into 3 sections</h2>
+
+
+      <ul>
+        <li>Web Scrapper</li>
+        <p>The web crawler will take a starting link and it will begin scrapping at that link and will go a predefined
+          distance before stopping.
+          From there based on the Max pages and Max Length entered into the python file, it will go and start scraping
+          the web and downloading HTML files using the start link as the basis.
+          This was my first time ever using a web scraper, it may not be the best, but I feel that it is more than
+          acceptable for the purpose of this assignment.</p>
+        <li>Indexer</li>
+        <p>The indexer will take all of the provided HTML documents obtained by the web crawler and it will create the
+          inverted index using TF-IDF score/weight representation, Cosine similarity. It does this by extracting the
+          text from the files and parsing it. It also has a built-in system to use stop words to help make it much more
+          efficient.</p>
+
+
+        <li>Processor</li>
+        <p>The process is a Flask Based processor that is capable of using free text queries and uses JSON to handle
+          them. It does this by creating a local Flask webserver to run everything and then when a POST request is made
+          with the query, it uses the index that was already created to pull out the most relevant documents. It will
+          continue running until the user manually shuts it down. This allows the user to enter as many queries as they
+          wish without needing to restart everything.</p>
+
+
+      </ul>
+      <p><a href="https://github.com/amp8889/searchEngine">Source Code</a></p>
+
+      <section>
+
+        <img src="../assets/searchEngineSearch1.png" alt="Search Engine Search: 1">
+        <img src="../assets/searchEngineSearch2.png" alt="Search Engine Search: 2">
+
+
+
+
+      </section>
     </section>
 
 
@@ -113,7 +160,7 @@
 
   </main>
   <footer id="footer">
-        <p>&copy; 2024 Aidan Pavlik. All rights reserved.</p>
+    <p>&copy; 2024 Aidan Pavlik. All rights reserved.</p>
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>

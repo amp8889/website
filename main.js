@@ -20,4 +20,19 @@ $(document).ready(function () {
     $(window).scroll(function () {
         fadeInOnScroll();
     });
+
+    // Modal Image Display
+    $('.enlargeable').click(function () {
+        var modal = $('#myModal');
+        var modalImg = $("#img01");
+        var captionText = $("#caption");
+
+        modal.show();
+        modalImg.attr('src', this.src);
+        captionText.text(this.alt);
+
+        $('.close').click(function () {
+            modal.hide();
+        });
+    });
 });

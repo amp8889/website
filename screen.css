@@ -238,7 +238,7 @@ p {
 
 
   padding-top: 0.625em;
-  font-size: 1.75em;
+  font-size: 15px;
 }
 
 
@@ -250,6 +250,11 @@ footer {
   font-size: .75em;
 
 }
+
+#content p{
+  font-size: 1.75em;
+}
+
 
 .intro {
 
@@ -445,7 +450,7 @@ footer {
 
 
 
-  max-width: .2em;
+  max-width: 1em;
   max-height: auto;
 
 
@@ -630,6 +635,9 @@ footer {
   grid-gap: 1em;
   /* Adjust as needed for spacing between bullet points */
   padding: 0;
+  /* max-width: 100em;
+  max-height: auto; */
+
 }
 
 
@@ -709,4 +717,70 @@ footer {
   .main-info {
       grid-column: 1 / -1;
   }
+}
+
+
+
+
+@media (max-width: 901px) {
+
+  #content{
+    
+    margin: 0em;
+    padding: 0em;
+    font-size: .5em;
+  }
+
+  #content p{
+
+    /* font-size: 1em;
+    margin: 0em;
+    padding: 0em; */
+
+  }
+
+
+  #content a{
+
+
+    /* font-size: 1em; */
+
+    
+  }
+
+
+
+  #content h3{
+
+    font-size: 3em;
+
+
+  }
+
+  #content img{
+
+    width: 100%;
+    height: auto;
+    
+
+  }
+
+  #projectsContent section{
+
+
+
+    min-width: none;
+    min-height: none;
+  }
+
+  #projectsContent img{
+
+    min-width: none;
+    min-height: none;
+    width: fit-content;
+    height: auto;
+
+  }
+
+
 }

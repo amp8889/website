@@ -1,66 +1,74 @@
 <!DOCTYPE html>
-  <html lang="en">
-    <head>
-      <meta charset="utf-8" />
-      <title>Aidan Pavlik</title>
-      <link rel="stylesheet" href="screen.css" />
-    </head>
-    <body>
-      <header id="site-header">
-        <h1>Aidan Pavlik</h1>
-        <nav id="site-nav">
-          <ul>
-            <li>
-              <a href="">Home</a>
-            </li>
-            <li>
-              <a href="resume/">Resume</a>
-            </li>
-            <li>
-              <a href="hobbies/">Hobbies</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main id="content">
-        <section id="about-me">
-          <h2>About</h2>
-          <p>I am currently a second year ITM major at Illinois institute of technology.
-              While I am learning the skills of ITM in general.
-              I intend to specialize in software development.
-              I also participate in different clubs/organizations at IIT.
-              The biggest being the IIT Esports organization. With the help of a couple of friends,
-              I also intend to start a DnD/Tabletop RPG club at some point this year.
-          </p>
-        </section>
-        <section id="belegar">
-          <h2>Belegar Ironhammer</h2>
-          <img src="assets/Belegar_Ironhammer.jpg" alt="Belegar Ironhammer" />
-        </section>
-        <section id="my-mind">
-          <h2>Personality</h2>
-          <p>I am a very quick and creative thinker.
-          I also like to look for unconvential solutions to problems that most would not think of.
-          I also like to think that I have a lot of common sense.
-          More so than most people I know. This allows me to not overthink a simple problem.
-          Finally, I firmly believe in not giving up and pushing through whatever you might be stuck on or troubling you.
-          Because most of the time you will
-          come out a better person because of it.
-          </p>
-        </section>
-        <section id="links">
-          <h2>Links to websites I found very useful or at least amusing</h2>
-          <ul>
-            <li> <a href="https://courses.stolley.co/fwd/"> ITMD 361 Website</a></li>
-            <li> <a href="https://www.google.com/"> Google</a></li>
-            <li> <a href="https://www.youtube.com/watch?v=6KaMt91ELHU"> Best Upcoming game</a></li>
-            <li> <a href="http://dnd5e.wikidot.com/"> DnD Wiki Dot</a></li>
-            <li> <a href="https://www.iit.edu/student-experience/campus-and-housing/dining"> The site that describes IIT's terrible food</a></li>
-          </ul>
-        </section>
-      </main>
-      <footer id="footer">
-        <p>Site content for Aidan Pavlik</p>
-      </footer>
-    </body>
-  </html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Aidan Pavlik</title>
+  <link rel="stylesheet" href="screen.css" />
+</head>
+
+<body>
+  <header id="site-header">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&family=Roboto+Mono&display=swap"
+      rel="stylesheet">
+    <section class="intro">
+      <img src="assets/code.png" alt="Image of programming languages" />
+      <h2 class="intro-text">Hi, I'm Aidan Pavlik</h2>
+    </section>
+  </header>
+
+  <nav id="site-nav">
+    <ul>
+      <li>
+        <a href="">Home</a>
+      </li>
+      <li>
+        <a href="resume">Resume</a>
+      </li>
+      <li>
+        <a href="Projects">Projects</a>
+      </li>
+    </ul>
+  </nav>
+  <main id="content">
+    <section class="homepage-tab fade-in">
+      <h3 class="title-one">Who am I???</h3>
+      <img class="image-one" src="assets/aidan_pavlik_suit.jpg" alt="Image of programming languages" />
+      <p class="intro-one">I am a quick and creative thinker who excels at finding unconventional solutions to problems.
+        I pride myself on my practical approach and strong common sense, which helps me avoid overcomplicating simple
+        issues. Additionally, I am committed to perseverance and believe that pushing through challenges leads to
+        personal growth and improvement.
+      </p>
+      <a class="link-one" href="resume/">Visit My Resume</a>
+    </section>
+    <section class="homepage-tab-two fade-in" id="education">
+      <h3 class="title-two">Education</h3>
+      <p class="intro-two">
+        I am a graduate of the Information Technology and Management program at the Illinois Institute of Technology,
+        with a focus on software development and a minor in Software Engineering. In addition to my academic pursuits, I
+        am actively involved in various
+        clubs and organizations at IIT, including the Illinois Tech Esports organization.
+      </p>
+      <img class="image-two" src="assets/illinois-tech-logo.png" alt="Image of Illinois Tech Logo" />
+      <a class="link-two" href="Projects/">See My Projects</a>
+    </section>
+    <section class="homepage-tab fade-in">
+      <h3 class="title-one">Projects and Code</h3>
+      <img class="image-one" src="assets/github.png" alt="Image of GitHub Logo" />
+      <p class="intro-one">Over the years, I have completed numerous projects, primarily related to programming. While
+        my expertise lies in Java and Python, I am also proficient in several other languages, including JavaScript, Dart, CSS,
+        HTML, and MySQL. I have made some of my more significant projects available on my GitHub page for public access.
+      </p>
+      <a class="link-one" href="https://github.com/amp8889?tab=repositories">Visit My GitHub Repo Page</a>
+    </section>
+  </main>
+  <footer id="footer">
+    <p>&copy; 2024 Aidan Pavlik. All rights reserved.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,82 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>Resume: Aidan Pavlik</title>
-    <link rel="stylesheet" href="../screen.css" />
-  </head>
-  <body>
-    <header>
-      <h1>Resume: Aidan Pavlik</h1>
-      <nav id="site-nav">
-        <ul>
-          <li>
-            <a href="../">Home</a>
-          </li>
-          <li>
-            <a href="../resume/">Resume</a>
-          </li>
-          <li>
-            <a href="../hobbies/">Hobbies</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main id="content">
-      <section id="resume">
-        <h2>Contact Information</h2>
-        <p>Aidan Pavlik</p>
-        <ul>
-          <li><a href="mailto:apavlik@hawk.iit.edu">apavlik@hawk.iit.edu</a></li>
-          <li><a href="tel:+1-630-523-2863">630-523-2863</a></li>
-          <li>Chicago Il</li>
-        </ul>
-      </section>
-      <section id="education-and-skills">
-        <h2>Education</h2>
-        <p>Illinois Institute of Technology</p>
-        <p>Degree: Second year Information Technology Management Student</p>
-        <h3>Skills in:</h3>
-        <ul>
-          <li>OS Systems for Windows, Linux, and Mac</li>
-          <li>Computer Hardware</li>
-          <li>Software Development</li>
-          <li>Networking</li>
-          <li>Web Development</li>
-        </ul>
-        <p>Also have skills in leadership, time management, focus, and keeping on track</p>
-        <p>My Work: (Insert Java Files here when we learn how to do so)</p>
-      </section>
-      <section id="work">
-        <h2>Work Experience</h2>
-        <p>Tennis Site Director for IHSA State Tournament</p>
-      </section>
-      <section id="coding">
-        <h2>Programming Languages</h2>
-        <ul>
-          <li>Intermediante Experience
-            <ul>
-              <li>Java</li>
-            </ul>
-          </li>
-          <li>Limited Experience
-            <ul>
-              <li>Python</li>
-              <li>HTML</li>
-              <li>Javascript</li>
-            </ul>
-          </li>
-          <li>Little Experience
-            <ul>
-              <li>Swift</li>
-              <li>CSS</li>
-            </ul>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <footer id="footer">
-      <p>Site content and Resume for Aidan Pavlik</p>
-    </footer>
-  </body>
-  </html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Resume: Aidan Pavlik</title>
+  <link rel="stylesheet" href="../screen.css" />
+</head>
+
+<body>
+  <header>
+    <nav id="site-nav">
+      <ul>
+        <li><a href="../">Home</a></li>
+        <li><a href="../resume">Resume</a></li>
+        <li><a href="../Projects">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="resume-content">
+    <section class="side-info fade-in" id="contact-info">
+      <h1>Aidan Pavlik</h1>
+      <img src="../assets/aidan_pavlik_suit.jpg" alt="Image of Aidan Pavlik" id="aidanPavlikImage">
+
+      <p>Chicago, Illinois</p>
+      <p><a href="mailto:aidan.pavlik@gmail.com">aidan.pavlik@gmail.com</a></p>
+      <p><a href="tel:+1-630-523-2863">630-523-2863</a></p>
+      <p><a href="https://www.linkedin.com/in/aidan-pavlik-438719235/">LinkedIn Profile</a></p>
+      <p><a href="https://github.com/amp8889">Github Profile</a></p>
+
+    </section>
+
+    <section class="main-info fade-in" id="education">
+      <h2>Education</h2>
+      <p>Illinois Institute of Technology, Chicago, IL</p>
+      <p><strong>Bachelor of Information Technology and Management</strong> - Cum Laude Honors, May 2024</p>
+      <p>GPA: 3.54/4.0</p>
+      <p>Minor in Software Engineering</p>
+      <p>Specialization in Software Development</p>
+      <p>Dean’s List: Fall 2021, Fall 2023, Spring 2023, Fall 2024</p>
+    </section>
+
+    <section class="main-info fade-in" id="experience">
+      <h2>Relevant Experience</h2>
+      <h3>Technology Intern — AkGroup LLC (June–August 2023)</h3>
+      <ul>
+        <li>Hardware repair: Replaced screens, batteries, touchpads, and keyboards (Macs, PCs, Chromebooks)</li>
+        <li>Networking: Wire pulling and system monitoring via Syncro app</li>
+        <li>Computer management: Remote software installation and troubleshooting</li>
+      </ul>
+
+      <h3>Scarlet Bazaar — Web Based Market Application</h3>
+      <ul>
+        <li>Fully automated deployment to a live server (Ubuntu) using Packer and Terraform</li>
+        <li>Flask-based web application with an integrated load balancer</li>
+        <li>Google Oauth integration to allow users to login and use their information throughout the application</li>
+        <li>MySQL and Vault integration</li>
+      </ul>
+
+      <h3>Java Web Application (Solo Project)</h3>
+      <ul>
+        <li>Used Java, MySQL, XML, and more to build a Java application with multiple entities and security groups</li>
+      </ul>
+
+      <h3>Custom Search Engine</h3>
+      <ul>
+        <li>Used Scrapy to scrape the web and download any select number of HTML files</li>
+        <li>Scikit-Learn indexer to create an inverted index in Pickle format using TF-IDF score/weight representations
+          and Cosine similarity</li>
+        <li>Flask Processor that takes queries in JSON format to find the Top-K ranked results</li>
+        <li><a href="https://github.com/amp8889/searchEngine">Source Code</a></li>
+      </ul>
+    </section>
+
+    <section class="main-info fade-in" id="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Python, Java, JavaScript, SQL (MySQL), Dart, HTML/CSS</li>
+        <li><strong>Frameworks + APIs:</strong> Flask, Flutter, Google Oauth, FastAPI, Google Maps, Scikit-Learn</li>
+        <li><strong>Libraries:</strong> Numpy, Pandas, JDBC, Matplotlib, Requests, Scrapy</li>
+        <li><strong>Developer Tools:</strong> Git, Terraform, Packer, Vagrant, Vault</li>
+      </ul>
+    </section>
+
+    <section class="main-info fade-in" id="leadership">
+      <h2>Leadership Experience</h2>
+      <h3>Captain and Manager of the Illinois Tech Overwatch Esports Team</h3>
+      <ul>
+        <li>Managed the school Esports team — scheduling practices and entering competitions</li>
+        <li>Responsible for individual member and unified team growth</li>
+        <li>Interviewed potential candidates and made recommendations for Illinois Tech Esports Scholarships</li>
+      </ul>
+    </section>
+
+    <section class="main-info fade-in" id="community">
+      <h2>Community Work</h2>
+      <ul>
+        <li>Volunteer — Second City Canine Rescue (2016–Present)</li>
+      </ul>
+    </section>
+  </main>
+  <footer id="footer">
+    <p>&copy; 2024 Aidan Pavlik. All rights reserved.</p>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="../main.js"></script>>
+</body>
+
+</html>

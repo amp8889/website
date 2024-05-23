@@ -645,10 +645,48 @@ footer {
 
 
 
+@media (max-width: 768px) {
+  #projectsContent {
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  }
+
+  .imageSection {
+    grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+  }
+
+  .applications {
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+}
 
 
+@media (max-width: 768px) {
+  #projectsContent {
+    grid-template-columns: 1fr;
+  }
 
+  .imageSection {
+    grid-template-columns: 1fr;
+  }
 
+  .applications {
+    margin: 0.2em;
+    padding: 0.2em;
+  }
+
+  .close {
+    font-size: 30px;
+  }
+
+  #projectsContent p {
+    font-size: 0.9em;
+  }
+
+  #projectsContent h3 {
+    font-size: 1.2em;
+  }
+}
 
 
 
@@ -722,7 +760,7 @@ footer {
 
 
 
-@media (max-width: 901px) {
+@media (max-width: 900px) {
 
   #content{
     
@@ -731,22 +769,7 @@ footer {
     font-size: .5em;
   }
 
-  #content p{
 
-    /* font-size: 1em;
-    margin: 0em;
-    padding: 0em; */
-
-  }
-
-
-  #content a{
-
-
-    /* font-size: 1em; */
-
-    
-  }
 
 
 
@@ -765,7 +788,27 @@ footer {
 
   }
 
-  #projectsContent section{
+  /* #projectsContent { */
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(20em, 1fr));
+  } */
+
+
+
+  /* .imageSection {
+    
+    grid-template-columns: repeat(auto-fit, minmax(20em, 1fr)); */
+   
+    /* Adjust as needed for spacing between bullet points */
+  
+    /* max-width: 100em;
+    max-height: auto; */
+  
+  /* } */
+
+
+
+  /* #projectsContent section{
 
 
 
@@ -780,7 +823,7 @@ footer {
     width: fit-content;
     height: auto;
 
-  }
+  } */
 
 
 }
